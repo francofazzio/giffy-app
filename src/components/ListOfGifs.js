@@ -1,7 +1,7 @@
 import React from "react"
-import React, {useEffect, useState} from 'react';
 import Gif from "./Gif"
 import getGifs from "../services/getGifs"
+import { useEffect, useState } from "react"
 
 export default function ListOfGifs({params}){
     const {keyword} =params

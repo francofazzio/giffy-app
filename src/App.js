@@ -12,6 +12,9 @@ function App() {
         <Link to='/gif/panda'>Gifs de pandas</Link>
         <Link to='/gif/harrystyles'>Gifs de harry styles</Link>
         <Link to='/gif/ricky'>Gifs de ricky</Link>
+        <Link to='/gif/deportes'>Gifs de deportes</Link>
+        <Link to='/gif/los simpsons'>Gifs de los simpsons </Link>
+
         <Route 
         component={ListOfGifs}
         path='/gif/:keyword ' />
